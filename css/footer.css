@@ -1,0 +1,128 @@
+/*=========== FOOTER ==================*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 1024px;
+    height: 140px;
+    margin: auto;
+    background-color: #30455b;
+}
+
+.item-footer {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.item-info {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.nav-footer {
+    font-size: 5px;
+}
+
+.link-footer {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Open Sans Condensed";
+    font-weight: lighter;
+
+}
+
+.link-info {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Open Sans Condensed";
+    font-weight: lighter;
+}
+
+
+/*======= Social icn ========*/
+
+.social {
+    ackground-color: #256324;
+    position: relative;
+    width: 250px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+}
+
+.nav-social {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-social {
+    height: 40px;
+    flex-basis: 40px;
+}
+
+.item-social > a {
+    display: inline-block;
+    height: 40px;
+    flex-basis: 40px;
+}
+
+.item-social:nth-of-type(1) > a {
+    background-image: url(../img/css_sprites.png);
+    background-repeat: no-repeat;
+    background-position: -4px -148px;
+    width: 40px;
+    height: 40px;
+    filter: opacity(0.4);
+}
+
+.item-social:nth-of-type(2) > a {
+    background-image: url(../img/css_sprites.png);
+    background-repeat: no-repeat;
+    background-position: -148px -4px;
+    width: 40px;
+    height: 40px;
+    filter: opacity(0.4);
+}
+
+.item-social:nth-of-type(3) > a {
+    background-image: url(../img/css_sprites.png);
+    background-repeat: no-repeat;
+    background-position: -100px -52px;
+    width: 40px;
+    height: 40px;
+    filter: opacity(0.4);
+}
+
+.item-social:nth-of-type(4) > a {
+    background-image: url(../img/css_sprites.png);
+    background-repeat: no-repeat;
+    background-position: -52px -100px;
+    width: 40px;
+    height: 40px;
+    filter: opacity(0.4);
+}
+
+.item-social > a:hover {
+    filter: opacity(1);
+}
