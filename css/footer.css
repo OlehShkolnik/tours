@@ -46,14 +46,17 @@
 
 .link-info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-decoration: none;
     color: #fff;
     font-size: 14px;
     font-family: "Open Sans Condensed";
-    font-weight: lighter;
 }
 
+.link-info p {
+    line-height: 0px;
+    margin-top: 0px;
+}
 
 /*======= Social icn ========*/
 
